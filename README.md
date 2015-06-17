@@ -18,3 +18,6 @@ Each duck has a FlyBehavior/ QuackBehavior, this is composition. Instead of inhe
 Defines a one-to-many dependecy between objects so that when one object change state, all of its dependents are notified and updated automatically.
 >Strive for loosely coupled designs between objects that interact (Luchar por diseños débilmente acoplados entre los objetos que interactúan)
 
+#Decorator pattern
+Attaches additional responsabilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+>Classes should be open for extension, but closed for modification. Allow classes to be easily extended to incorporate new behavior without modifying existing code.

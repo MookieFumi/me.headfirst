@@ -45,6 +45,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decorator\First\Beverage.cs" />
+    <Compile Include="Decorator\First\CondimentDecorator.cs" />
+    <Compile Include="Decorator\DecoratorTest.cs" />
+    <Compile Include="Decorator\First\Beverages\Expresso.cs" />
+    <Compile Include="Decorator\First\Beverages\HouseBlend.cs" />
+    <Compile Include="Decorator\First\Condiments\Mocha.cs" />
+    <Compile Include="Decorator\First\Condiments\Soy.cs" />
+    <Compile Include="Decorator\First\Condiments\SteamedMilk.cs" />
+    <Compile Include="Decorator\First\Condiments\Whip.cs" />
+    <Compile Include="Decorator\Second\Phones\S6Edge.cs" />
+    <Compile Include="Decorator\Second\Phones\Nexus6.cs" />
+    <Compile Include="Decorator\Second\Phone.cs" />
+    <Compile Include="Decorator\Second\ComponentDecorator.cs" />
+    <Compile Include="Decorator\Second\Components\FrontCamera13MP.cs" />
+    <Compile Include="Decorator\Second\Components\FrontCamera6MP.cs" />
+    <Compile Include="Decorator\Second\Components\MemoryCard32GB.cs" />
+    <Compile Include="Decorator\Second\Components\MemoryCard64GB.cs" />
     <Compile Include="Observer\Custom\Displays\CurrentConditionsDisplay.cs" />
     <Compile Include="Observer\Framework\Displays\CurrentConditionsDisplayV2.cs" />
     <Compile Include="Observer\Framework\Displays\StatisticsDisplayV2.cs" />
