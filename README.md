@@ -1,4 +1,5 @@
-#Head First Design Patterns
+#Awesome Head First Design Patterns
+
 ##Strategy pattern
 Defines a family of algorithms, encapsulates each algorithm, and makes the algorithms interchangeable within that family.
 ####HAS-A can be better than IS-A
