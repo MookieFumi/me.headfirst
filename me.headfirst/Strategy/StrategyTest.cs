@@ -1,4 +1,5 @@
 ﻿using System;
+using me.headfirst.Strategy.Behaviors;
 using NUnit.Framework;
 
 namespace me.headfirst.Strategy
@@ -13,6 +14,11 @@ namespace me.headfirst.Strategy
 
             var rubberDuck = new RubberDuck();
             CallMethods(rubberDuck);
+
+            var redheadDuck = new RedheadDuck();
+            CallMethods(redheadDuck);
+            redheadDuck.SetFlyBehavior(new FlyRocketPowered());
+            CallMethods(redheadDuck);
         }
 
         private void CallMethods(Duck duck)

@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Strategy\Behaviors\FlyRocketPowered.cs" />
+    <Compile Include="Strategy\RedheadDuck.cs" />
     <Compile Include="Strategy\StrategyTest.cs" />
     <Compile Include="Strategy\Duck.cs" />
     <Compile Include="Strategy\Behaviors\FlyNoWay.cs" />

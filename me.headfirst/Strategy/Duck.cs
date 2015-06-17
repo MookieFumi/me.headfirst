@@ -11,6 +11,16 @@ namespace me.headfirst.Strategy
         {
         }
 
+        public void SetFlyBehavior(IFlyBehavior flyBehavior)
+        {
+            FlyBehavior = flyBehavior;
+        }
+
+        public void SetQuackBehavior(IQuackBehavior quackBehavior)
+        {
+            QuackBehavior = quackBehavior;
+        }
+
         public void PerfomFly()
         {
             FlyBehavior.Fly();
