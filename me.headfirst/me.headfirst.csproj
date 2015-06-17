@@ -45,6 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Observer\Custom\Displays\CurrentConditionsDisplay.cs" />
+    <Compile Include="Observer\Framework\Displays\CurrentConditionsDisplayV2.cs" />
+    <Compile Include="Observer\Framework\Displays\StatisticsDisplayV2.cs" />
+    <Compile Include="Observer\Framework\WeatherInfo.cs" />
+    <Compile Include="Observer\IDisplayElement.cs" />
+    <Compile Include="Observer\Custom\IObserver.cs" />
+    <Compile Include="Observer\Custom\ISubject.cs" />
+    <Compile Include="Observer\ObserverTest.cs" />
+    <Compile Include="Observer\Custom\Displays\StatisticsDisplay.cs" />
+    <Compile Include="Observer\Framework\WeatherDataV2.cs" />
+    <Compile Include="Observer\Custom\WheatherData.cs" />
     <Compile Include="Strategy\Behaviors\FlyRocketPowered.cs" />
     <Compile Include="Strategy\RedheadDuck.cs" />
     <Compile Include="Strategy\StrategyTest.cs" />
@@ -58,6 +69,7 @@
     <Compile Include="Strategy\Behaviors\QuackMute.cs" />
     <Compile Include="Strategy\RubberDuck.cs" />
     <Compile Include="Strategy\Behaviors\QuackSqueak.cs" />
+    <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
