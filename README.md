@@ -21,3 +21,16 @@ Defines a one-to-many dependecy between objects so that when one object change s
 #Decorator pattern
 Attaches additional responsabilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 >Classes should be open for extension, but closed for modification. Allow classes to be easily extended to incorporate new behavior without modifying existing code.
+
+#Factory method pattern
+Defines an interface for creating an object, but lets subclasses decide wich class to instantiate. Factory method lets a class defer instantiation to subclasses.
+
+All factory patterns encapsulate object creation.
+
+Simple factory method. Not a pattern.
+Factory method. Handles object creation and encapsulates it in a subclass.
+    
+    abstract Product FactoryMethod (string type)
+
+Factory method pattern. Encapsulates object creation by letting subclasses decide what objects to create.
+>Depend upon abstractions. Do not depend upon concrete classes.

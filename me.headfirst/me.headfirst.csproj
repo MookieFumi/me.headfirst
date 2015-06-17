@@ -62,6 +62,14 @@
     <Compile Include="Decorator\Second\Components\FrontCamera6MP.cs" />
     <Compile Include="Decorator\Second\Components\MemoryCard32GB.cs" />
     <Compile Include="Decorator\Second\Components\MemoryCard64GB.cs" />
+    <Compile Include="Factory\First\Pizzas\BarcelonaCheesePizza.cs" />
+    <Compile Include="Factory\First\Stores\BarcelonaStore.cs" />
+    <Compile Include="Factory\First\Pizzas\Pizza.cs" />
+    <Compile Include="Factory\FactoryTest.cs" />
+    <Compile Include="Factory\First\Pizzas\MadridCheesePizza.cs" />
+    <Compile Include="Factory\First\Stores\MadridStore.cs" />
+    <Compile Include="Factory\First\Stores\PizzaStore.cs" />
+    <Compile Include="Factory\First\PizzaType.cs" />
     <Compile Include="Observer\Custom\Displays\CurrentConditionsDisplay.cs" />
     <Compile Include="Observer\Framework\Displays\CurrentConditionsDisplayV2.cs" />
     <Compile Include="Observer\Framework\Displays\StatisticsDisplayV2.cs" />
