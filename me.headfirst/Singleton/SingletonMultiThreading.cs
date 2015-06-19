@@ -5,7 +5,9 @@
         private static SingletonMultiThreading _instance;
         private static readonly object Padlock = new object();
 
-        private SingletonMultiThreading() { }
+        private SingletonMultiThreading()
+        {
+        }
 
         public static SingletonMultiThreading Instance
         {

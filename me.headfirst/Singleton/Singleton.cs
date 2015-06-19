@@ -5,14 +5,15 @@ namespace me.headfirst.Singleton
     public class Singleton
     {
         private static Singleton _instance;
-        public DateTime CreatedDateTime { get; private set; }
 
         private Singleton()
         {
             CreatedDateTime = DateTime.UtcNow;
         }
 
-        public static  Singleton GetInstance()
+        public DateTime CreatedDateTime { get; private set; }
+
+        public static Singleton GetInstance()
         {
             if (_instance == null)
             {
