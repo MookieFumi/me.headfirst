@@ -70,7 +70,16 @@
     <Compile Include="Factory\First\Stores\MadridStore.cs" />
     <Compile Include="Factory\First\Stores\PizzaStore.cs" />
     <Compile Include="Factory\First\PizzaType.cs" />
-    <Compile Include="Factory\Second\Class1.cs" />
+    <Compile Include="Factory\Second\INerveComponentsFactory.cs" />
+    <Compile Include="Factory\Second\OnlineShopComponentFactory.cs" />
+    <Compile Include="Factory\Second\RetailShopComponentFactory.cs" />
+    <Compile Include="Factory\Second\Shop.cs" />
+    <Compile Include="Factory\Second\Bikes\DefaultNerve.cs" />
+    <Compile Include="Factory\Second\FrameSize.cs" />
+    <Compile Include="Factory\Second\Nerve.cs" />
+    <Compile Include="Factory\Second\Shops\OnlineShop.cs" />
+    <Compile Include="Factory\Second\Shops\RetailShop.cs" />
+    <Compile Include="Factory\Second\Bikes\TwentyNineNerve.cs" />
     <Compile Include="Observer\Custom\Displays\CurrentConditionsDisplay.cs" />
     <Compile Include="Observer\Framework\Displays\CurrentConditionsDisplayV2.cs" />
     <Compile Include="Observer\Framework\Displays\StatisticsDisplayV2.cs" />
@@ -100,6 +109,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
