@@ -91,6 +91,9 @@
     <Compile Include="Observer\Custom\Displays\StatisticsDisplay.cs" />
     <Compile Include="Observer\Framework\WeatherDataV2.cs" />
     <Compile Include="Observer\Custom\WheatherData.cs" />
+    <Compile Include="Singleton\SingletonTests.cs" />
+    <Compile Include="Singleton\SingletonMultiThreading.cs" />
+    <Compile Include="Singleton\Singleton.cs" />
     <Compile Include="Strategy\Behaviors\FlyRocketPowered.cs" />
     <Compile Include="Strategy\RedheadDuck.cs" />
     <Compile Include="Strategy\StrategyTests.cs" />

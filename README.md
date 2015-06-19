@@ -36,3 +36,6 @@ Factory method. Handles object creation and encapsulates it in a subclass.
 
 Factory method pattern. Encapsulates object creation by letting subclasses decide what objects to create.
 >Depend upon abstractions. Do not depend upon concrete classes.
+
+##Singleton pattern
+Ensures a class has only one instance, and provides a global point of access to it.
