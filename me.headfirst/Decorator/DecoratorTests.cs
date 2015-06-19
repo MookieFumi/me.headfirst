@@ -12,7 +12,7 @@ using NUnit.Framework;
 
 namespace me.headfirst.Decorator
 {
-    public class DecoratorTest
+    public class DecoratorTests
     {
         [Test]
         public void BeverageTest()

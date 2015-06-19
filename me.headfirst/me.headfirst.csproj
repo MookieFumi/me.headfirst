@@ -47,7 +47,7 @@
   <ItemGroup>
     <Compile Include="Decorator\First\Beverage.cs" />
     <Compile Include="Decorator\First\CondimentDecorator.cs" />
-    <Compile Include="Decorator\DecoratorTest.cs" />
+    <Compile Include="Decorator\DecoratorTests.cs" />
     <Compile Include="Decorator\First\Beverages\Expresso.cs" />
     <Compile Include="Decorator\First\Beverages\HouseBlend.cs" />
     <Compile Include="Decorator\First\Condiments\Mocha.cs" />
@@ -65,11 +65,12 @@
     <Compile Include="Factory\First\Pizzas\BarcelonaCheesePizza.cs" />
     <Compile Include="Factory\First\Stores\BarcelonaStore.cs" />
     <Compile Include="Factory\First\Pizzas\Pizza.cs" />
-    <Compile Include="Factory\FactoryTest.cs" />
+    <Compile Include="Factory\FactoryTests.cs" />
     <Compile Include="Factory\First\Pizzas\MadridCheesePizza.cs" />
     <Compile Include="Factory\First\Stores\MadridStore.cs" />
     <Compile Include="Factory\First\Stores\PizzaStore.cs" />
     <Compile Include="Factory\First\PizzaType.cs" />
+    <Compile Include="Factory\Second\Class1.cs" />
     <Compile Include="Observer\Custom\Displays\CurrentConditionsDisplay.cs" />
     <Compile Include="Observer\Framework\Displays\CurrentConditionsDisplayV2.cs" />
     <Compile Include="Observer\Framework\Displays\StatisticsDisplayV2.cs" />
@@ -77,13 +78,13 @@
     <Compile Include="Observer\IDisplayElement.cs" />
     <Compile Include="Observer\Custom\IObserver.cs" />
     <Compile Include="Observer\Custom\ISubject.cs" />
-    <Compile Include="Observer\ObserverTest.cs" />
+    <Compile Include="Observer\ObserverTests.cs" />
     <Compile Include="Observer\Custom\Displays\StatisticsDisplay.cs" />
     <Compile Include="Observer\Framework\WeatherDataV2.cs" />
     <Compile Include="Observer\Custom\WheatherData.cs" />
     <Compile Include="Strategy\Behaviors\FlyRocketPowered.cs" />
     <Compile Include="Strategy\RedheadDuck.cs" />
-    <Compile Include="Strategy\StrategyTest.cs" />
+    <Compile Include="Strategy\StrategyTests.cs" />
     <Compile Include="Strategy\Duck.cs" />
     <Compile Include="Strategy\Behaviors\FlyNoWay.cs" />
     <Compile Include="Strategy\Behaviors\FlyWithWings.cs" />

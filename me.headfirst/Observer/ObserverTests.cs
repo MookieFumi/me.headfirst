@@ -7,7 +7,7 @@ using NUnit.Framework;
 
 namespace me.headfirst.Observer
 {
-    public class ObserverTest
+    public class ObserverTests
     {
         private Random _random;
 

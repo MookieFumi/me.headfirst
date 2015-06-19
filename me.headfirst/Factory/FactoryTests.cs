@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace me.headfirst.Factory
 {
-    public class FactoryTest
+    public class FactoryTests
     {
         [Test]
         public void PizzaShopTest()

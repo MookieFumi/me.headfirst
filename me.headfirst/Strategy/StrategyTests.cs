@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace me.headfirst.Strategy
 {
-    public class StrategyTest
+    public class StrategyTests
     {
         [Test]
         public void DuckTest()
