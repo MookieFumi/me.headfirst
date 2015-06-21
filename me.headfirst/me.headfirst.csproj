@@ -45,6 +45,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command\First\Devices\CeilingFan.cs" />
+    <Compile Include="Command\First\Commands\CeilingFanHighCommand.cs" />
+    <Compile Include="Command\First\Commands\CeilingFanLowCommand.cs" />
+    <Compile Include="Command\First\Commands\CeilingFanMediumCommand.cs" />
+    <Compile Include="Command\First\Commands\CeilingFanOffCommand.cs" />
+    <Compile Include="Command\First\Commands\LightOnCommand.cs" />
+    <Compile Include="Command\First\ICommand.cs" />
+    <Compile Include="Command\CommandTests.cs" />
+    <Compile Include="Command\First\Devices\Light.cs" />
+    <Compile Include="Command\First\Commands\LightOffCommand.cs" />
+    <Compile Include="Command\First\MacroCommand.cs" />
+    <Compile Include="Command\First\NoCommand.cs" />
+    <Compile Include="Command\First\RemoteControl.cs" />
+    <Compile Include="Command\First\SimpleRemoteControl.cs" />
+    <Compile Include="Command\First\Devices\Stereo.cs" />
+    <Compile Include="Command\First\Commands\StereoOffCommand.cs" />
+    <Compile Include="Command\First\Commands\StereoOnWithCDCommand.cs" />
+    <Compile Include="Command\Second\Class1.cs" />
     <Compile Include="Decorator\First\Beverage.cs" />
     <Compile Include="Decorator\First\CondimentDecorator.cs" />
     <Compile Include="Decorator\DecoratorTests.cs" />
