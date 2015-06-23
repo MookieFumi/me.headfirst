@@ -132,6 +132,13 @@
     <Compile Include="Observer\Custom\Displays\StatisticsDisplay.cs" />
     <Compile Include="Observer\Framework\WeatherDataV2.cs" />
     <Compile Include="Observer\Custom\WheatherData.cs" />
+    <Compile Include="Prototype\First\ConcretePrototypeA.cs" />
+    <Compile Include="Prototype\First\ConcretePrototypeB.cs" />
+    <Compile Include="Prototype\First\IPrototype.cs" />
+    <Compile Include="Prototype\PrototypeTests.cs" />
+    <Compile Include="Prototype\Second\ImportedProduct.cs" />
+    <Compile Include="Prototype\Second\IProduct.cs" />
+    <Compile Include="Prototype\Second\Product.cs" />
     <Compile Include="Singleton\SingletonTests.cs" />
     <Compile Include="Singleton\SingletonMultiThreading.cs" />
     <Compile Include="Singleton\Singleton.cs" />
