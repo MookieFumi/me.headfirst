@@ -45,6 +45,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\AdapterTests.cs" />
+    <Compile Include="Adapter\First\DieselEngine.cs" />
+    <Compile Include="Adapter\First\ElectricMotor.cs" />
+    <Compile Include="Adapter\First\ElectricMotorAdapter.cs" />
+    <Compile Include="Adapter\First\GasolineEngine.cs" />
+    <Compile Include="Adapter\First\ICombustionEngine.cs" />
+    <Compile Include="Adapter\Second\MySystem.cs" />
+    <Compile Include="Adapter\Second\CustomersAdapter.cs" />
+    <Compile Include="Adapter\Second\ICustomersService.cs" />
+    <Compile Include="Adapter\Second\ThirdPartySystem.cs" />
+    <Compile Include="Adapter\Third\ExternalProductsServices.cs" />
+    <Compile Include="Adapter\Third\IProductsService.cs" />
+    <Compile Include="Adapter\Third\ProductsServiceAdapter.cs" />
     <Compile Include="Command\First\Devices\CeilingFan.cs" />
     <Compile Include="Command\First\Commands\CeilingFanHighCommand.cs" />
     <Compile Include="Command\First\Commands\CeilingFanLowCommand.cs" />
