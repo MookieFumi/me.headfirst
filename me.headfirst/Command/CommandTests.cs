@@ -1,9 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using me.headfirst.Command.First;
 using me.headfirst.Command.First.Commands;
 using me.headfirst.Command.First.Devices;
 using me.headfirst.Command.Second;
+using me.headfirst.Command.Second.CommandFactory;
+using me.headfirst.Command.Third;
 using NUnit.Framework;
+using ICommand = me.headfirst.Command.First.ICommand;
 
 namespace me.headfirst.Command
 {
@@ -98,17 +102,66 @@ namespace me.headfirst.Command
             remote.SetCommand(0, welcomeMacro, goOutMacro);
 
             remote.OnButtonWasPushed(0);
-            //remote.OffButtonWasPushed(0);
         }
 
         [Test]
-        public void DoorTest()
+        public void CommandFactoryTest()
         {
-            var door = new Door();
-            var openDoorCommand = new OpenDoorCommand(door);
+            var factory = new CommandFactory();
+            factory.Register("Foo", () => new Foo().DoSomething());
+            factory.Register("Bar", () => new Bar().DoSomething());
+            factory.Execute("Foo");
+        }
 
-            var firstRemoteControl = new FirstRemoteControl();
-            firstRemoteControl.SetCommand(openDoorCommand);
+        [Test]
+        public void ComandTest()
+        {
+            var factory = new CommandFactory2();
+            factory.Register("A", new Lazy<CommandWithUndo>(
+                () =>
+                {
+                    var a = new A();
+                    return new CommandWithUndo(a.DoA, a.UndoA);
+                }));
+
+            factory.Register("B", new Lazy<CommandWithUndo>(
+                () =>
+                {
+                    var b = new B();
+                    return new CommandWithUndo(b.DoB, b.DoB);
+                }));
+
+            factory.Register("C", new Lazy<CommandWithUndo>(
+                () => new CommandWithUndo(DoStuff, UndoStuff)));
+
+            factory.Execute("C");
+            factory.Undo("C");
+        }
+
+        /// <summary>
+        /// //This is the class that creates and executes the command object.
+        /// </summary>
+        [Test]
+        public void CommandClientTest()
+        {
+            Invoker invoker = new Invoker();
+            Receiver receiver = new Receiver();
+            ConcreteCommand command = new ConcreteCommand(receiver)
+            {
+                Parameter = "Dot Net Tricks !!"
+            };
+            invoker.Command = command;
+            invoker.ExecuteCommand();
+        }
+
+        private static void DoStuff()
+        {
+            Console.WriteLine("Do Stuff");
+        }
+
+        private static void UndoStuff()
+        {
+            Console.WriteLine("Undo Stuff");
         }
     }
 }
