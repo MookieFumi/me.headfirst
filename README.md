@@ -40,5 +40,8 @@ Factory method pattern. Encapsulates object creation by letting subclasses decid
 ##Singleton pattern
 Ensures a class has only one instance, and provides a global point of access to it.
 
-##Command patter
+##Command pattern
 Encapsulates a request as an object, thereby letting your parameterize other objects with different request, queue or log request.
+
+##Adapter pattern
+Converts the interface of a class into another interface the client expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.

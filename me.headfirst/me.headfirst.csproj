@@ -51,10 +51,14 @@
     <Compile Include="Adapter\First\ElectricMotorAdapter.cs" />
     <Compile Include="Adapter\First\GasolineEngine.cs" />
     <Compile Include="Adapter\First\ICombustionEngine.cs" />
+    <Compile Include="Adapter\RealAdapter\EnumerationIterator.cs" />
+    <Compile Include="Adapter\RealAdapter\IEnumerator.cs" />
+    <Compile Include="Adapter\RealAdapter\IIterator.cs" />
     <Compile Include="Adapter\Second\MySystem.cs" />
     <Compile Include="Adapter\Second\CustomersAdapter.cs" />
     <Compile Include="Adapter\Second\ICustomersService.cs" />
     <Compile Include="Adapter\Second\ThirdPartySystem.cs" />
+    <Compile Include="Adapter\Third\Class1.cs" />
     <Compile Include="Adapter\Third\ExternalProductsServices.cs" />
     <Compile Include="Adapter\Third\IProductsService.cs" />
     <Compile Include="Adapter\Third\ProductsServiceAdapter.cs" />

@@ -36,7 +36,7 @@ namespace me.headfirst.Adapter
         }
 
         [Test]
-        public void Test()
+        public void ProductServiceTest()
         {
             IProductsService productsServiceAdapter = new ProductsServiceAdapter();
             foreach (var product in productsServiceAdapter.GetProducts())
