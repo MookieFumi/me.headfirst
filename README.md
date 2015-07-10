@@ -15,6 +15,7 @@ Each duck has a FlyBehavior/ QuackBehavior, this is composition. Instead of inhe
 	* Encapsulate what varies
 	* Favor composition over inheritance
 	* Program to interfaces, not implementations
+    * Talk only to your immediate friends
 
 ##Observer pattern
 Defines a one-to-many dependecy between objects so that when one object change state, all of its dependents are notified and updated automatically.
@@ -45,3 +46,12 @@ Encapsulates a request as an object, thereby letting your parameterize other obj
 
 ##Adapter pattern
 Converts the interface of a class into another interface the client expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+##Facade pattern
+Provides a unified interface to a set of interfaces in a subsystem. Defines a higher-level interface that makes the subsystem easier to use.
+
+>Decorator/ Adapter/ Facade differences
+Decorator. Doesn't alter the interface but adds responsability.
+Adapter. Converts one interface to another.
+Facade. Makes an interface simpler.
+

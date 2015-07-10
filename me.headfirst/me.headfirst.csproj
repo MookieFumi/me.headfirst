@@ -107,6 +107,14 @@
     <Compile Include="Decorator\Second\Components\FrontCamera6MP.cs" />
     <Compile Include="Decorator\Second\Components\MemoryCard32GB.cs" />
     <Compile Include="Decorator\Second\Components\MemoryCard64GB.cs" />
+    <Compile Include="Facade\First\Amplifier.cs" />
+    <Compile Include="Facade\First\CdPlayer.cs" />
+    <Compile Include="Facade\First\HomeTheaterFacade.cs" />
+    <Compile Include="Facade\First\DvdPlayer.cs" />
+    <Compile Include="Facade\First\Projector.cs" />
+    <Compile Include="Facade\First\Tuner.cs" />
+    <Compile Include="Facade\FacadeTests.cs" />
+    <Compile Include="Facade\Seoncd\Class1.cs" />
     <Compile Include="Factory\First\Pizzas\BarcelonaCheesePizza.cs" />
     <Compile Include="Factory\First\Stores\BarcelonaStore.cs" />
     <Compile Include="Factory\First\Pizzas\Pizza.cs" />
