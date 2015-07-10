@@ -114,7 +114,9 @@
     <Compile Include="Facade\First\Projector.cs" />
     <Compile Include="Facade\First\Tuner.cs" />
     <Compile Include="Facade\FacadeTests.cs" />
-    <Compile Include="Facade\Seoncd\Class1.cs" />
+    <Compile Include="Facade\Seoncd\ImmediateFriends.cs" />
+    <Compile Include="Facade\Seoncd\Station.cs" />
+    <Compile Include="Facade\Seoncd\Thermometer.cs" />
     <Compile Include="Factory\First\Pizzas\BarcelonaCheesePizza.cs" />
     <Compile Include="Factory\First\Stores\BarcelonaStore.cs" />
     <Compile Include="Factory\First\Pizzas\Pizza.cs" />
