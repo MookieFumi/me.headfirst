@@ -15,7 +15,11 @@ Each duck has a FlyBehavior/ QuackBehavior, this is composition. Instead of inhe
 	* Encapsulate what varies
 	* Favor composition over inheritance
 	* Program to interfaces, not implementations
-    * Talk only to your immediate friends
+    * Strive for loosely coupled designs between object that intereact
+    * Classes should be open for extension but closed for modification
+    * Depend on abstractions. Do not depend on concrete classes
+    * Only talk to your friends
+    * Don't call us, we'll call you
 
 ##Observer pattern
 Defines a one-to-many dependecy between objects so that when one object change state, all of its dependents are notified and updated automatically.
@@ -55,3 +59,5 @@ Decorator. Doesn't alter the interface but adds responsability.
 Adapter. Converts one interface to another.
 Facade. Makes an interface simpler.
 
+##Template Method pattern
+Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certein steps of an algorithm without changing the algorithm's structure.

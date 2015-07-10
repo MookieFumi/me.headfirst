@@ -114,7 +114,7 @@
     <Compile Include="Facade\First\Projector.cs" />
     <Compile Include="Facade\First\Tuner.cs" />
     <Compile Include="Facade\FacadeTests.cs" />
-    <Compile Include="Facade\Seoncd\ImmediateFriends.cs" />
+    <Compile Include="Facade\Seoncd\Home.cs" />
     <Compile Include="Facade\Seoncd\Station.cs" />
     <Compile Include="Facade\Seoncd\Thermometer.cs" />
     <Compile Include="Factory\First\Pizzas\BarcelonaCheesePizza.cs" />
@@ -169,6 +169,11 @@
     <Compile Include="Strategy\Behaviors\QuackMute.cs" />
     <Compile Include="Strategy\RubberDuck.cs" />
     <Compile Include="Strategy\Behaviors\QuackSqueak.cs" />
+    <Compile Include="TemplateMethod\First\Beverage.cs" />
+    <Compile Include="TemplateMethod\First\BeverageWithHook.cs" />
+    <Compile Include="TemplateMethod\First\Coffee.cs" />
+    <Compile Include="TemplateMethod\First\Tea.cs" />
+    <Compile Include="TemplateMethod\TemplateMethodTests.cs" />
     <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
